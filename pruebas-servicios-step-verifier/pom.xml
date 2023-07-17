@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.13</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<groupId>com.programacion.reactiva</groupId>
+		<artifactId>curso-programacion-reactiva</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com.programacion.reactiva</groupId>
-	<artifactId>curso-programacion-reactiva</artifactId>
+	<groupId>com.step.verifier</groupId>
+	<artifactId>pruebas-servicios-step-verifier</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>curso-programacion-reactiva</name>
+	<name>pruebas-servicios-step-verifier</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
-		<!--<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-webflux</artifactId>
-		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
 
 		<dependency>
@@ -31,18 +26,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!--<dependency>
+		<dependency>
 			<groupId>io.projectreactor</groupId>
 			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
-		</dependency>-->
+		</dependency>
 	</dependencies>
-
-	<modules>
-		<module>introduccion-project-reactor</module>
-		<module>pruebas-step-verifier</module>
-		<module>pruebas-servicios-step-verifier</module>
-	</modules>
 
 	<build>
 		<plugins>
@@ -52,5 +41,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	<packaging>pom</packaging>
+
 </project>
