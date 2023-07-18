@@ -48,6 +48,7 @@
 		<module>ejemplo-thymeleaf-reactivo</module>
 		<module>hot-cold-publishers</module>
 		<module>api-rest-reactiva-anotaciones</module>
+		<module>api-rest-reactiva-mongodb</module>
 	</modules>
 
 	<build>
